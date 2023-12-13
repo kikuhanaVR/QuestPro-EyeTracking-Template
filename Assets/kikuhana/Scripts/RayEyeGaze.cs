@@ -14,11 +14,15 @@ public class RayEyeGaze : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             Debug.Log(hit.point);
+
+            //当たった場合、オブジェクトにEyeGazeColを接触
+            //EyeGazeCol自身にRayがhitしてしまう状況をreturnで回避
             if (hit.collider.gameObject == eyeGazeCol) return;
             eyeGazeCol.transform.position = hit.point;
         }
         else
         {
+            //視線がどこにも当たっていない場合、位置をリセット
             eyeGazeCol.transform.position = new Vector3 (0, 0, 0);
         }
     }

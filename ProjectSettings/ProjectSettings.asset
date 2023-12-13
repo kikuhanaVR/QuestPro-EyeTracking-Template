@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: HebiniramiVR
+  productName: EyeTrackingSample
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -138,7 +138,10 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
+  - {fileID: 0}
   - {fileID: 11400000, guid: 1a8836c5e17e7c74d9dbc9625194d2a1, type: 2}
+  - {fileID: 11400000, guid: 618b95ef6c635cd4c986aa991ec7a75a, type: 2}
+  - {fileID: 1656537918985363375, guid: 36dcb3222759bb0488030239015e4cbc, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -160,6 +163,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.HebiniramiVR
+    Standalone: com.DefaultCompany.EyeTrackingSample
   buildNumber:
     Standalone: 0
     VisionOS: 0

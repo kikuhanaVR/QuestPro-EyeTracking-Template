@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/kikuhana/Scene/SampleScene.unity
+    path: Assets/kikuhana/Scene/Sample.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/kikuhana/Scene/hoge.unity
-    guid: 737fcd719d54062448edc564d75386ac
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 618b95ef6c635cd4c986aa991ec7a75a, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 36dcb3222759bb0488030239015e4cbc, type: 2}
